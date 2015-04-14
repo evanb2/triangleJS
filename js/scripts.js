@@ -5,6 +5,11 @@ $(document).ready(function() {
         var sideB = parseInt($("input#sideB").val());
         var sideC = parseInt($("input#sideC").val());
 
+        // $('#equilateral').show();
+        // $('#isosceles').show();
+        // $('#right').show();
+        // $('#scalene').show();
+
         var triangle = {
             A: sideA,
             B: sideB,
@@ -59,7 +64,11 @@ $(document).ready(function() {
 
         $("#clear").click(function(event) {
             $("#result").hide();
-            $("#error").hide();
+            $('#equilateral').empty();
+            $('#isosceles').empty();
+            $('#right').empty();
+            $('#scalene').empty();
+
             $("#sideB").val("");
             $("#sideC").val("");
             $("#sideA").val("").focus();
