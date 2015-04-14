@@ -2,6 +2,7 @@ describe('triangleCheck', function() {
 
 
     it("it takes three inputs from user, if all are equal return 'equilateral triangle'", function() {
+
         expect(triangleCheck(1, 1, 1)).to.equal("equilateral triangle")
     });
 
@@ -25,11 +26,8 @@ describe('triangleCheck', function() {
         expect(triangleCheck(2, 1, 6)).to.equal("error, one input cannot equal more than the other two combined")
     });
 
-<<<<<<< HEAD
     it("it takes three inputs from user, if A^2 + B^2 = C^2 return 'right triangle'", function() {
         expect(triangleCheck(3, 4, 5)).to.equal("right triangle")
     });
-=======
 
->>>>>>> 4f781f3fd7536f1f681df96af774fcc11980ba5d
 });
