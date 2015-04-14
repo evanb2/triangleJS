@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Triangle Check</title>
+</head>
+<body>
+
+  <header>
+    <h1>Enter three values to find out what kind of triangle it is, if any...</h1>
+  </header>
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <form id="trianglecheck">
+          <div class="form-group">
+            <label for="sideA">Enter Side A:</label>
+            <input id="sideA" type="number" required>
+          </div>
+          <div class="form-group">
+            <label for="sideB">Enter Side B:</label>
+            <input id="sideB" type="number" required>
+          </div>
+          <div class="form-group">
+            <label for="sideC">Enter Side C:</label>
+            <input id="sideC" type="number" required>
+          </div>
+
+          <br>
+          <div class="btn-group">
+            <button type="submit" class="btn btn-info btn-lg">
+              <span class="glyphicon glyphicon-triangle-top"></span> Check
+            </button>
+            <button id="clear" type="submit" class="btn btn-danger btn-lg">
+              <span class="glyphicon glyphicon-remove"></span> Clear
+            </button>
+          </div>
+        </form>
+
+        <br>
+        <div id="error">
+          <h2 class="text-danger"> Error, must input a number </h2>
+        </div>
+        <div id="result">
+          <h3>You have created an <span class="check"></span>!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

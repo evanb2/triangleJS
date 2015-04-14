@@ -1,0 +1,23 @@
+body {
+    background-color: snow;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 25px 0;
+  background: url('http://images8.alphacoders.com/393/393933.jpg') no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+
+h1 {
+  color: white;
+  text-shadow: 5px 5px 6px #000;
+  margin-top: 0;
+}
+
+#error, #result {
+  display: none;
+}
