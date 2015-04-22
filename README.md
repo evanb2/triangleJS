@@ -9,9 +9,12 @@ Requires: a web browser.
 Created on a Mac, and hasn't been tested on other operating systems.
 
 SetUp
-1. Clone repository into desktop
-2. Open directory name triangle
-3. Right - click on Triangle.html and open with web browser, or drag and drop Triangle.html onto web browsers icon
+
+1. Open terminal/console and type: 'git clone https://github.com/evanb2/triangleJS'
+
+2. Open triangleJS folder and open html file in your web browser, preferably Chrome.
+
+3. Follow instructions on the page.
 
 # Copyright (c) 2015 (Patrick Fiorentino & Evan Butler)
 
