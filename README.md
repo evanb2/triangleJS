@@ -1,4 +1,4 @@
-# Name: Patrick Fiorentino
+# Name: Patrick Fiorentino & Evan Butler
 # Date: 4/10/2015
 
 Description:
@@ -13,7 +13,7 @@ SetUp
 2. Open directory name triangle
 3. Right - click on Triangle.html and open with web browser, or drag and drop Triangle.html onto web browsers icon
 
-# Copyright (c) 2015 (Patrick Fiorentino)
+# Copyright (c) 2015 (Patrick Fiorentino & Evan Butler)
 
 # The MIT License (MIT)
 
